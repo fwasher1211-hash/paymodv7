@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "fartiqs2xpay",
+  "version": "${version}",
+  "name": "Fartiqs 2x Pay Mod",
+  "description": "Adds a clickable 2x button to DonutSMP payment messages that pays the sender back double.",
+  "authors": ["Fartiq"],
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.fartiq.twoxpay.FartiqsTwoXPayMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "fabric-api": "*",
+    "minecraft": "1.21.11",
+    "java": ">=21"
+  }
+}
